@@ -2,6 +2,7 @@ META_DEFINITION:
   escript will be used to compile and make it a cmd app see this link:
     https://elixirschool.com/en/lessons/advanced/escripts/
   gotta see how processes do and how to pass it as an argument (for threads n stuff)
+    https://elixirschool.com/en/lessons/advanced/concurrency/
 
 
 
