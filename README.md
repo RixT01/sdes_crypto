@@ -1,21 +1,24 @@
-# SdesCrypto
+META_DEFINITION:
+  escript will be used to compile and make it a cmd app see this link:
+    https://elixirschool.com/en/lessons/advanced/escripts/
+  gotta see how processes do and how to pass it as an argument (for threads n stuff)
 
-**TODO: Add description**
 
-## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `sdes_crypto` to your list of dependencies in `mix.exs`:
 
-```elixir
-def deps do
-  [
-    {:sdes_crypto, "~> 0.1.0"}
-  ]
-end
-```
+PROBLEM_DEFINITION:
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/sdes_crypto](https://hexdocs.pm/sdes_crypto).
+-Normal mode
+  -it's more of a didactic/educational mode
+  -INPUTS:
+    -10 bit key, and 8 bit text
+  -it will encrypt or decrypt
+  -must print out all intermediate values:
+    (IP, fk, F, SW, IP 8, etc)
 
+
+-Brute force mode
+  -big boi tempo
+  -read pairs from file
+  -find a key such that ALL pairs match
+  -gotta run from command line n stuff
